@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BingoAssistant</string>
+    <string name="title_home">Home</string>
+    <string name="title_new_bingo">New Bingo</string>
+    <string name="Title_newBingo">Add a new Bingo</string>
+    <string name="label_bingoPrize" >Premio:</string>
+    <string name="label_bingoPrice" >$ por numero:</string>
+    <string name="priceHint">$</string>
+    <string name="prizeHint">Que van a ganar?</string>
+    <string name="BtnText_viewBingo">View Bingo\'s</string>
+    <string name="BtnText_newBingo" >Add New Bingo</string>
+    <string name="BtnText_deleteBingos">DELETE ALL BINGOS</string>
+    <string name="Title_viewBingos" >View Bingos</string>
+    <string name="BtnText_Submit">Submit</string>
+    <string name="Text_floatBTN_description">Floating button to add new bingos</string>
+</resources>

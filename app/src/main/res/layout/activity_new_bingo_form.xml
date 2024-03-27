@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Constraint_newBingo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFCFCF">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1976D2"
+        android:text="@string/title_new_bingo"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/Label_BingoPrize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/label_bingoPrize"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/newbingo_prize"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/prizeHint"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Label_BingoPrize" />
+
+    <TextView
+        android:id="@+id/Label_bingoPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/label_bingoPrice"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newbingo_prize" />
+
+    <EditText
+        android:id="@+id/newbingo_price"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/priceHint"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Label_bingoPrice" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="175dp"
+        android:layout_height="164dp"
+        android:backgroundTint="#1976D2"
+        android:importantForAccessibility="no"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_add_image"
+        app:layout_constraintBottom_toTopOf="@+id/BTN_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newbingo_price"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/BTN_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="#388E3C"
+        android:text="@string/BtnText_Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
