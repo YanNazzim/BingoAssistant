@@ -25,10 +25,6 @@ Thank you for considering contributing to BingoAssistant! To contribute, please 
 
 If you encounter any issues or have suggestions for improvements, please feel free to open an issue on the Issues tab.
 
-## License
-
-BingoAssistant is released under the [LICENSE NAME] License.
-
 ## Contact
 
-For any questions or inquiries, please contact [Your Name] at [your-email@example.com].
+For any questions or inquiries, please contact [Yan Gonzalez] at [ygonz42@gmail.com].
