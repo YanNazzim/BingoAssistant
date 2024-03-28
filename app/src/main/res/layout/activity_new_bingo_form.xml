@@ -26,14 +26,14 @@
         android:id="@+id/Label_BingoPrize"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
         android:text="@string/label_bingoPrize"
         android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/BTN_backToHome" />
 
     <EditText
         android:id="@+id/newbingo_prize"
@@ -58,8 +58,8 @@
         android:id="@+id/Label_bingoPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
         android:text="@string/label_bingoPrice"
         android:textColor="#000000"
         android:textSize="34sp"
@@ -76,29 +76,15 @@
         android:background="#FFFFFF"
         android:ems="10"
         android:hint="@string/priceHint"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Label_bingoPrice" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="175dp"
-        android:layout_height="164dp"
-        android:backgroundTint="#1976D2"
-        android:importantForAccessibility="no"
-        android:scaleType="centerInside"
-        android:src="@drawable/ic_add_image"
-        app:layout_constraintBottom_toTopOf="@+id/BTN_submit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/newbingo_price"
-        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/BTN_submit"
@@ -114,4 +100,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/BTN_backToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#1976D2"
+        android:padding="10dp"
+        android:text="@string/BtnText_backToHome"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FBC02D"
+        android:padding="10dp"
+        android:text="@string/BtnText_addIMG"
+        app:layout_constraintBottom_toTopOf="@+id/BTN_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newbingo_price"
+        app:layout_constraintVertical_bias="0.5" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

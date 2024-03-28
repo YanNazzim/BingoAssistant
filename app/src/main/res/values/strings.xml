@@ -13,4 +13,11 @@
     <string name="Title_viewBingos" >View Bingos</string>
     <string name="BtnText_Submit">Submit</string>
     <string name="Text_floatBTN_description">Floating button to add new bingos</string>
+    <string name="BtnText_backToHome">Back To Home</string>
+    <string name="BtnText_addIMG">Add Image</string>
+    <string name="Title_editBingo" />
+    <string name="title_editBingo">Edit Bingo</string>
+    <string name="bingoName_var" />
+    <string name="bingoPrice_var" />
+    <string name="bingoNum_var" />
 </resources>
